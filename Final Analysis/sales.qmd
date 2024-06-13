@@ -1,0 +1,33 @@
+---
+title: "Sales By Company"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+execute:
+  keep-md: true
+  df-print: paged
+  warning: false
+format:
+  html:
+    code-fold: true
+    code-line-numbers: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+library(directlabels)
+library(ggrepel)
+library(gapminder)
+library(ggthemes)
+library(scales)
+```
+
+```{r}
+sales <- read_csv("https://raw.githubusercontent.com/JacobBrown6908/spring-24-IBC/main/CSV%20data%20to%20clean/sales.csv?token=GHSAT0AAAAAACRP5WDCBIEWHAVMQCSBI36YZTKIFTQ")
+```
+
+```{r}
+sales <- sales %>% 
+  ymd(
+```
+
