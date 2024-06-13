@@ -1,0 +1,74 @@
+---
+title: "Client Report - IBC Report"
+subtitle: "Historical Semester Data"
+author: "Patrick"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+
+```{python}
+#| label: libraries
+#| include: false
+import pandas as pd
+import numpy as np
+import plotly.express as px
+```
+
+```{python}
+url = '/Users/patrickoneill/Documents/BYU-I/Semesters/Spring-2024/spring-24-IBC/Location Revenue.csv'
+location = pd.read_csv(url)
+location['Primary Location'] = location['Primary Location'].replace('(blank)', np.nan).replace('Rotated', np.nan)
+location
+```
+
+```{python}
+url = '/Users/patrickoneill/Documents/BYU-I/Semesters/Spring-2024/spring-24-IBC/CSV data to clean/IBC Historical Data.csv'
+historical = pd.read_csv(url)
+# historical
+# historical['Primary Location'] = historical['Primary Location'].replace('(blank)', np.nan).replace('Rotated', np.nan)
+historical['Primary Location'].unique()
+
+value_counts = historical['Primary Location'].value_counts()
+
+print(value_counts)
+```
+
+We're going to figure out which data is missing, and see what we can drop. 
+
+```{python}
+location_clean = location.drop(19)
+location_clean = location_clean.dropna()
+location_clean['Sum of Revenue'] = location_clean['Sum of Revenue'].str.replace('$', '').str.replace(',','').astype(int)
+print(location_clean.reset_index(drop=True))
+```
+
+
+```{python}
+chart = px.bar(location_clean,
+    x = "Primary Location",
+    y = "Sum of Revenue",
+    title = "Revenue by Location",
+    labels = {"Sum of Revenue": "Total Revenue"},
+)
+
+chart.show()
+```
