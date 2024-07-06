@@ -1,0 +1,105 @@
+---
+title: "Client Report - IBC Report"
+subtitle: "Historical Semester Data"
+author: "Patrick O'Neill"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+
+```{python}
+#| label: libraries
+#| include: false
+import pandas as pd
+import numpy as np
+import plotly.express as px
+```
+
+
+## Financial Metrics by Location
+
+### Introduction
+
+In this reprot, I'll be analyzing the financial data for IBC's based on location. We'll be looking at total revenue, average revenue, and average net income to figure out what location is the most successful for IBC's. This report will also offer anaylsis on what IBC's can do at each location to improve their financial performance.
+
+
+### Data Cleaning
+
+We'll start by loading in a csv file that contains financial and location data for each IBC comapny from 2015-2023. 
+
+```{python}
+url1 = '/Users/patrickoneill/Documents/BYU-I/Semesters/Spring-2024/spring-24-IBC/CSV data to clean/Financial Data.csv'
+financial = pd.read_csv(url1)
+financial['Primary Location'] = financial['Primary Location'].str.replace('Library Ampitheatre', 'Ampatheater')
+financial_filtered = financial[financial['Primary Location' ].isin(['MC','Smith','Ampatheater','STC','Outside','Kimball','I-Center','Benson','Hart'])]
+```
+
+We clened up the data by combining the Library Ampitheatre with the Ampatheater, and then filtered the data to only include the locations which have had more than 2 companies that have sold there. We also filtered out the online locaation because it's not a physical location, and there hasn't been an online company in this data set since 2021. We filtered out the Rotated location because it's not a physical location either. 
+
+
+### Revenue 
+We'll start by looking at total Revenue for each location.
+
+```{python}
+total_revenue = financial_filtered.groupby('Primary Location')['Revenue'].sum()
+total_revenue = total_revenue.sort_values(ascending=False)
+chart = px.bar(total_revenue, title = "Total Revenue by Location", labels = {"value": "Total Revenue"})
+chart.update_layout(showlegend=False)
+chart.show()
+```
+
+At first glance, it appears that IBC's that have sold in the MC are the most successful, as their total revenue is more than double that of the next highest location, the Smith. We have to take into account though, the amount of IBC's that have sold in each location. Here's a table that shows that information. 
+```{python}
+financial_filtered['Primary Location'].value_counts()
+```
+
+A large portion of the IBC's have sold in the MC, which is why the total revenue is so high. For us to see what location is the most successful, we need to look at the average revenue for each location. The chart below will show that information. 
+
+```{python}
+avg_revenue = financial_filtered.groupby('Primary Location')['Revenue'].mean()
+avg_revenue = avg_revenue.sort_values(ascending=False)
+chart = px.bar(avg_revenue, title = "Average Revenue by Location", labels = {"value": "Average Revenue"})
+chart.update_layout(showlegend=False)
+chart.show()
+```
+
+We see that IBC's that have sold in the Smith and STC locations have the highest average revenue at around 12,000, followed by IBC's that have sold in the Kimball and the I-Center at around $9000-$1000 in average revenue. IBC's in the Benson, Hart, and MC are right in the middle of the pact at around with an average revenue of about $8000, while IBC's that have sold in the Ampatheater are just below average with  an average revenue of about $7000. IBC's that have sold outside have the lowest average revenue at around $5000.
+
+
+### Net Income
+Now we're going to look at average net income by location.
+
+```{python}
+avg_income = financial_filtered.groupby('Primary Location')['Net Income'].mean()
+avg_income = avg_income.sort_values(ascending=False)
+chart = px.bar(avg_income,color = avg_income, title = "Average Net Income by Location", labels = {"value": "Average Net Income", "color": ""})
+chart.update_layout(showlegend=False)
+chart.show()
+```
+
+Even though the I-Center has a lower average revenue than locations like the Smith and STC, their net income is much higher, meaning that their cost of operations is on average much lower. Also, the IBC's at the Kimball has the third highest average revenue, but they also have on average a net income of -$463.00, which suggests that IBC's that have sold at the Kimball have a high cost of operations. Although the IBC's that have sold at the STC and Smith have the highest average revenues, they have relatively low net incomes, which also suggests that they have high costs of operations.
+
+
+## Final Analysis
+
+In terms of sales and revenue, IBC's at the STC and Smith Locations appear to be the most successful. However, when  we look at net income, we see that IBC's at the I-Center are the most successful. IBC's at the STC and Smith appear to be doing a good job with advertising as they're getting a lot of sales, but they need to find a way to reduce operational costs in order to increase their net income. This is espcially true for IBC's sold at the Kimball, as they have the third highest average revenue, but the second to lowest net income. IBC's at the I-Center are doing a good job of keeping operational costs low, but they need to find a way to increase sales in order to increase their net income. It makes sense why their sales aren't very high because not a lot of people walk thorugh the I-Center regularly, but if they can find new and creative ways to adversite, they could increase their sales and net income. IBC's sold at the Benson and the Hart are actually doing very well in terms of net income, but their average revenue isn't super high so if they can find ways to increase their sales, they can make a really nice profit. The same is true for IBC's sold outside and in the MC. The worst performing location for IBC's is the Ampatheater, as they have the lowest average net income and the second to lowest average revenue. It's not a very popular location in general, so they'll have try new and creative ways to increase sales. 
+
+
