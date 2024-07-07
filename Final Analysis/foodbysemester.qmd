@@ -1,0 +1,134 @@
+---
+title: "Food Buisness Success by Semester"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+execute:
+  keep-md: true
+  df-print: paged
+  warning: false
+format:
+  html:
+    code-fold: true
+    code-line-numbers: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+people <- read_csv("C:\\Users\\derek\\Downloads\\registration_cleaned_sp22_f23_joined_with_business_name (2).csv")
+
+businesses <- read_csv("C:\\Users\\derek\\Downloads\\IBC Historical Data.csv")
+
+people <- people %>% 
+  drop_na("Business me")
+
+business <- businesses %>% 
+  drop_na("Company Name")
+```
+
+```{r}
+df <- left_join(people, business, by = c("Business me" = "Company Name"))
+```
+
+```{r}
+gender <- df %>%
+  group_by(`Business me`) %>%
+  mutate(
+    females = sum(`Gender` == 'Female', na.rm = TRUE), 
+    males = sum(`Gender` == 'Male', na.rm = TRUE)
+  )
+```
+
+```{r}
+dfdf <- gender %>%
+  group_by(females) %>%
+  mutate(females = as.factor(females))
+
+dfdf1 <- gender %>%
+  group_by(males) %>%
+  mutate(males = as.factor(males))
+
+df1 <- gender %>%
+  group_by(females) %>%
+  summarise(
+    med_net_income = median(`Net Income`, na.rm = TRUE), 
+    avg_net_income = mean(`Net Income`, na.rm = TRUE), 
+    sum_net_income = sum(`Net Income`, na.rm = TRUE)
+  )
+
+df2 <- gender %>%
+  group_by(males) %>%
+  summarise(
+    med_net_income = median(`Net Income`, na.rm = TRUE), 
+    avg_net_income = mean(`Net Income`, na.rm = TRUE), 
+    sum_net_income = sum(`Net Income`, na.rm = TRUE)
+  )
+```
+
+```{r}
+ggplot(gender, aes(x=females)) +
+  geom_boxplot()
+```
+
+```{r}
+ggplot(dfdf, aes(x=females, y=`Net Income`)) +
+  geom_boxplot()
+```
+
+```{r}
+ggplot(dfdf1, aes(x=males, y=`Net Income`)) +
+  geom_boxplot()
+```
+
+
+```{r}
+ggplot(gender, aes(x=males)) +
+  geom_boxplot()
+```
+
+```{r}
+ggplot(df1, aes(x=females, y = med_net_income)) +
+  geom_line()
+```
+
+```{r}
+ggplot(df1, aes(x=females, y = avg_net_income)) +
+  geom_line()
+```
+
+```{r}
+ggplot(df1, aes(x=females, y = sum_net_income)) +
+  geom_line()
+```
+
+```{r}
+ggplot(df2, aes(x=males, y = med_net_income)) +
+  geom_line()
+```
+
+```{r}
+ggplot(df2, aes(x=males, y = avg_net_income)) +
+  geom_line()
+```
+
+```{r}
+ggplot(df2, aes(x=males, y = sum_net_income)) +
+  geom_line()
+```
+
+```{r}
+businesses$Smstr <- factor(businesses$Smstr, levels = c("Fall", "Winter", "Spring"))
+
+food <- businesses %>% 
+  filter(Category == "Food/Drink") %>% 
+  group_by(Smstr)
+```
+
+```{r}
+ggplot(food, aes(x=Smstr, y=`Net Income`)) +
+  geom_boxplot()
+```
+
