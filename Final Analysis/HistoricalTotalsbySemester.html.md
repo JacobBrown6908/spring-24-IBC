@@ -1,6 +1,6 @@
 ---
 title: "Historical Totals By Semester"
-date: "June 12, 2024"
+date: "July 11, 2024"
 execute:
   keep-md: true
   df-print: paged
@@ -24,7 +24,7 @@ library(gapminder)
 library(ggthemes)
 library(scales)
 
-data <- read_csv("C:\\Users\\derek\\OneDrive - BYU-Idaho\\Data Science Society\\IBC Historical Data.csv")
+data <- read_csv("C:\\Users\\derek\\OneDrive - BYU-Idaho\\Documents\\Data Science Society\\IBC Historical Data.csv")
 ```
 :::
 
@@ -303,5 +303,65 @@ ggplot(ibc_year, aes(x=Year, y=Revenue, group=Year)) +
 
 ::: {.cell-output-display}
 ![](HistoricalTotalsbySemester_files/figure-html/unnamed-chunk-12-1.png){width=672}
+:::
+:::
+
+::: {.cell}
+
+```{.r .cell-code}
+cogs <- ibc %>% 
+  drop_na(COGS, net_income)
+
+ibc_lm <- lm(net_income ~ COGS, data=cogs)
+summary(ibc_lm)
+```
+
+::: {.cell-output .cell-output-stdout}
+
+```
+
+Call:
+lm(formula = net_income ~ COGS, data = cogs)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-8035.9  -931.5   -50.3   734.9  6130.4 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -407.29678  209.78081  -1.942   0.0537 .  
+COGS           0.24913    0.05027   4.956 1.62e-06 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1727 on 185 degrees of freedom
+Multiple R-squared:  0.1172,	Adjusted R-squared:  0.1124 
+F-statistic: 24.56 on 1 and 185 DF,  p-value: 1.619e-06
+```
+
+
+:::
+
+```{.r .cell-code}
+par(mfrow=c(1,3))
+plot(ibc_lm,which=1:2)
+plot(ibc_lm$residuals)
+```
+
+::: {.cell-output-display}
+![](HistoricalTotalsbySemester_files/figure-html/unnamed-chunk-13-1.png){width=672}
+:::
+:::
+
+::: {.cell}
+
+```{.r .cell-code}
+ggplot(cogs, aes(x = COGS, y = net_income))+
+  geom_point()+
+  geom_smooth(method = lm, formula = y~x, se = FALSE)
+```
+
+::: {.cell-output-display}
+![](HistoricalTotalsbySemester_files/figure-html/unnamed-chunk-14-1.png){width=672}
 :::
 :::
