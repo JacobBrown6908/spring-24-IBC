@@ -1,0 +1,207 @@
+Year,Smstr,#,Company Name,Primary Location,"Rent/Domain Amount 
+for Primary Location",Description,Revenue,COGS,Gross Profit,Gross Margin,Operating Expenses,Operating Income,Net Income,Ending Cash Balance,Net Income Margin,Category
+2015,Winter,A,Teton Tacos,Smith,,Tacos,,,,,,,,,0%,Food/Drink
+2015,Winter,B,43 North,Library Ampitheatre,,Hot Chocolate,"9,718.00","3,778.00","5,940.00",61%,"13,443.00","-7,502.00","-7,502.00","2,363.00",-77%,Food/Drink
+2015,Winter,C,Royal,MC,,Apparel,"11,868.00","5,993.00","5,874.00",49%,"1,322.00","4,543.00","3,861.00","1,459.00",33%,Apparel
+2015,Winter,D,Shave and Shine,MC,,Apparel,"13,589.00","5,910.00","7,679.00",57%,"5,909.00","1,770.00","1,770.00",,13%,Apparel
+,,,,,,,,,,,,,,,,
+2015,Winter,F,Johnny's Diner,Clark,,Burgers,"5,135.00",,,,,,"2,411.00",,47%,Food/Drink
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+2015,Spring,E,Toasties,,,Food,"16,625.00","8,353.00","8,272.00",50%,"1,809.00","6,462.00","6,462.00",,39%,Food/Drink
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+2016,Winter,A,,Kimball,,BBQ,"20,480.00","10,072.00","10,408.00",51%,"8,000.00","7,795.00","1,629.00",,8%,Food/Drink
+2016,Winter,B,,MC,,Photo Booth,"11,552.00","5,400.00","6,152.00",53%,"5,099.00","1,053.00",677.00,,6%,Service
+2016,Winter,C,,Library Ampitheatre,,Burritos,"18,509.00","9,200.00","9,309.00",50%,"11,348.00","-2,039.00","-1,474.00",,-8%,Food/Drink
+2016,Winter,D,,MC,,Branded Apparel,"8,464.00","5,435.00","3,029.00",36%,"2,702.00",327.00,151.00,,2%,Apparel
+2016,Winter,E,Roam,MC,,Branded Apparel,"14,021.00","6,392.00","7,629.00",54%,"4,217.00","3,412.00","2,282.00",,16%,Apparel
+2016,Winter,F,,Ricks,,Prepackaged food,"8,151.00","3,388.00","4,763.00",58%,"5,642.00",-879.00,-785.00,,-10%,Food/Drink
+2016,Winter,G,Viking Rolls,Smith,,Sandwiches,"16,195.00","4,536.00","11,659.00",72%,"7,312.00","4,347.00","2,917.00",,18%,Food/Drink
+2016,Winter,H,,Library Ampitheatre,,Boucy balls,808.00,0.00,808.00,100%,458.00,350.00,-17.00,,-2%,Product
+2016,Winter,I,,Online,,Candy,"2,013.00","1,639.00",374.00,19%,210.00,164.00,36.00,,2%,Food/Drink
+2016,Spring,A,Tacontento,Kimball,,Tacos,"16,171.00","6,340.00","9,340.00",58%,"6,704.00","2,636.00","1,779.00",,11%,Food/Drink
+2016,Spring,B,Splash n'Dash,By the Stadium,,Car Wash,"13,360.00","2,326.00","11,033.00",83%,"4,853.00","6,181.00","4,285.00",,32%,Service
+2016,Spring,C,Shortstop,Library Ampitheatre,,Homemade Pretzels,"10,192.00","2,708.00","7,484.00",73%,"9,802.00","-2,317.00","-3,159.00",,-31%,Food/Drink
+2016,Spring,D,Le Belle,MC,,Branded Apparel,"17,489.00","5,864.00","11,348.00",65%,"6,462.00","4,886.00","3,310.00",,19%,Apparel
+2016,Spring,E,Hot Diggity,Smith,,Hot Dogs,"20,288.00","8,197.00","12,091.00",60%,"11,657.00",434.00,239.00,,1%,Food/Drink
+2016,Spring,F,Fro Zone,Library Ampitheatre,,Cold Treats,"6,748.00","2,772.00","3,975.00",59%,"7,649.00","-3,674.00","-2,732.00",,-40%,Food/Drink
+2016,Fall,A,The Lodge,MC,,Hand Warmers,"12,696.00","3,408.00","9,288.00",73%,"5,240.00","4,048.00","2,789.00","7,501.00",22%,Product
+2016,Fall,B,Bitez,Library Ampitheatre,,Muffins,"6,779.00","3,751.00","3,028.00",45%,"4,163.00","-1,135.00",-929.00,"1,088.00",-14%,Food/Drink
+2016,Fall,C,Mexi Rexi,STC,,Mexican Tortas,"16,508.00","7,689.00","8,819.00",53%,"10,684.00","-1,685.00","-1,366.00","5,842.00",-8%,Food/Drink
+2016,Fall,D,Heaven Scent,MC,,Scented Items,"10,610.00","3,868.00","6,742.00",64%,"5,411.00","1,331.00",890.00,"3,580.00",8%,Product
+2016,Fall,E,Grizzly Wear,MC,,Branded Apparel,"13,990.00","8,377.00","5,613.00",40%,"6,642.00","-1,030.00",-816.00,"2,759.00",-6%,Apparel
+2016,Fall,F,Jewelry by Anson,MC,,Jewelry,"5,467.00",508.00,"4,959.00",91%,"5,090.00",-131.00,817.00,"3,319.00",15%,Apparel
+2016,Fall,G,Panini Plus,Kimball,,Paninins,"11,539.00","5,324.00","6,214.00",54%,"6,971.00",-756.00,-530.00,"3,810.00",-5%,Food/Drink
+2016,Fall,H,Rexburg Co.,MC,,Branded Apparel,"6,246.00","2,327.00","3,919.00",63%,"4,129.00",-210.00,-696.00,"1,888.00",-11%,Apparel
+2017,Winter,A,The Meltdown,Smith,,Grilled Cheese,"15,117.00","4,672.00","10,446.00",69%,"7,254.00","3,191.00","2,187.00",,14%,Food/Drink
+2017,Winter,B,The Sock Shop,MC,,Socks,"9,534.00","4,687.00","4,847.00",51%,"3,873.00",974.00,632.00,,7%,Apparel
+2017,Winter,C,Nature,MC,,Lotions,"7,404.00","3,622.00","3,783.00",51%,"3,283.00",500.00,511.00,,7%,Product
+2017,Winter,D,Wing Shack,Crossroads,,Chicken Wings,"38,186.00","15,711.00","22,474.00",59%,"9,288.00","13,186.00","9,213.00",,24%,Food/Drink
+2017,Winter,E,Acai Bowl,Benson,,Acai Bowls (blended fruit bowls),"11,753.00","2,956.00","8,797.00",75%,"5,468.00","3,328.00","2,301.00",,20%,Food/Drink
+2017,Winter,F,Backyard BBQ,STC,,BBQ pulled pork,"15,613.00","5,088.00","10,526.00",67%,"6,784.00","3,742.00","2,531.00",,16%,Food/Drink
+2017,Winter,G,Simply Soft,MC,,Lotions,"4,762.00","2,334.00","2,428.00",51%,"3,559.00","-1,131.00",-875.00,,-18%,Product
+2017,Winter,H,Impress,MC,,Etched Wood products,"5,786.00","2,930.00","2,930.00",51%,"4,413.00","-1,483.00","-1,069.00",,-18%,Product
+2017,Spring,A,Treeline,MC,,Hammock,"20,078.00","11,478.00","8,600.00",43%,"4,076.00","4,524.00","3,091.00",,15%,Product
+2017,Spring,B,Ohana Hut,STC,,Rice Bowl,"11,432.00","5,567.00","5,866.00",51%,"7,016.00","-1,150.00",-875.00,,-8%,Food/Drink
+2017,Spring,C,Doughlicious,Library Ampitheatre,,Cookie Dough,"8,539.00","2,314.00","6,225.00",73%,"7,310.00","-1,085.00",-811.00,,-9%,Food/Drink
+2017,Spring,D,Chanchos,Crossroads,,Tacos,"15,592.00","4,456.00","11,137.00",71%,"8,743.00","2,394.00","1,531.00",,10%,Food/Drink
+2017,Spring,E,ParadICE,Library Ampitheatre,,Shaved Ice,"4,507.00","1,036.00","3,471.00",77%,"4,595.00","-1,124.00",-846.00,,-19%,Food/Drink
+2017,Spring,F,StickOut,MC,,Vinyl Stickers,"5,092.00",788.00,"4,305.00",85%,"4,304.00",1.00,-62.00,,-1%,Product
+2017,Fall,A,Open Box Games,MC,$35 ,Mormon card games,"20,321.00","8,544.00","11,777.00",58%,"3,993.00","7,784.00","5,446.00",,27%,Product
+2017,Fall,B,Cozy Comforts,MC,$35 ,Blankets,"10,660.00","5,884.00","4,776.00",45%,"3,648.00","1,128.00",670.00,,6%,Product
+2017,Fall,C,Visual Records,MC,$35 ,Home Decor (w/sound wave art),"7,421.00","3,322.00","4,099.00",55%,"3,686.00",413.00,241.00,,3%,Product
+2017,Fall,D,Dough Mama's Kitchen,Smith,$150 ,Kolaches,"7,680.00","3,705.00","3,975.00",52%,"5,746.00","-1,771.00","-1,323.00",,-17%,Food/Drink
+2017,Fall,E,Mama's Bistro,STC,$150 ,Panini sandwiches and soup,"15,648.00","6,388.00","9,260.00",59%,"8,640.00",620.00,378.00,,2%,Food/Drink
+2017,Fall,F,Wafel Co.,Library Ampitheatre,$35 ,Waffels,"12,637.00","5,738.00","6,899.00",55%,"6,168.00",731.00,438.00,,3%,Food/Drink
+2017,Fall,G,Hot Spot,MC,$35 ,Winter Clothes&accessories,"3,033.00","2,396.00",637.00,21%,"2,671.00","-2,034.00","-1,543.00",,-51%,Apparel
+2018,Winter,A,Shredded Chicken,Smith,$150 ,Chicken Sandwiches,"16,323.00","6,720.00","9,604.00",59%,"7,332.00","2,272.00","1,783.00","7,461.00",11%,Food/Drink
+2018,Winter,B,The Coop,STC,$150 ,Fried Chicken,"18,262.00","9,266.00","8,995.00",49%,"7,186.00","1,809.00","1,222.00","6,252.00",7%,Food/Drink
+2018,Winter,C,Soup City,Kimball,$75 ,Soups,"11,128.00","4,622.00","6,506.00",58%,"6,493.00",13.00,-70.00,"3,535.00",-1%,Food/Drink
+2018,Winter,D,Patch Co.,MC,$35 ,Customized Hats,"9,093.00","3,902.00","5,190.00",57%,"3,741.00","1,449.00",937.00,"3,574.00",10%,Apparel
+2018,Winter,E,Date Box,MC,$35 ,Date Boxes,"6,647.00","4,147.00","2,501.00",38%,"4,042.00","-1,541.00","-1,191.00","1,766.00",-18%,Product
+2018,Winter,F,Sawtooth Supply Co,MC,$35 ,Billboard Duffle Bags,"11,023.00","3,094.00","4,162.00",38%,"3,788.00",375.00,332.00,"3,678.00",3%,Product
+2018,Winter,G,Bee's Knees,MC,$35 ,Skin Care Products,"7,980.00","2,616.00","5,364.00",67%,"4,243.00","1,121.00",714.00,"3,990.00",9%,Product
+2018,Spring,A,Serenity,MC,$35 ,Bath bombs,"3,050.00","1,103.00","1,946.00",64%,"2,907.00",-961.00,-704.00,796.00,-23%,Product
+2018,Spring,B,Laurel Bee,MC,$35 ,Jewelry,"4,486.00",932.00,"3,553.00",79%,"2,733.00",821.00,559.00,"2,339.00",12%,Apparel
+2018,Spring,C,Honu Life,Courtyard,$35 ,"Hammocks, hats","4,910.00","2,858.00","2,052.00",42%,"3,008.00",956.00,-753.00,"1,229.00",-15%,Product
+2018,Spring,D,Shaves,Smith,$150 ,Shaved ice/hot dogs,"3,052.00",682.00,"2,370.00",78%,"5,612.00","-3,242.00","-2,340.00",-691.00,-77%,Food/Drink
+2018,Spring,E,Joey & Co,MC,$35 ,Apparel,"3,802.00","2,219.00","1,583.00",42%,"2,905.00","-1,322.00",-978.00,567.00,-26%,Apparel
+2018,Spring,F,Jurassic Wraps,Kimball,$75 ,Wraps,"7,481.00","3,653.00","3,828.00",51%,"4,582.00",-753.00,-566.00,"2,160.00",-8%,Food/Drink
+2018,Spring,G,Imperial Rice,STC,$150 ,Rice bowls,"9,102.00","5,264.00","3,838.00",42%,"5,423.00","-1,585.00","-1,169.00","3,738.00",-13%,Food/Drink
+2018,Spring,H,Fantastic Foods,MC,$35 ,Food packaging and delivery,"3,354.00","3,244.00",110.00,3%,"3,424.00","-3,313.00","-2,402.00","-1,935.00",-72%,Food/Drink
+2018,Fall,A,Gnarly Woodworks,MC,$35 ,Wood rings,"8,360.00","1,756.00","6,604.00",79%,"4,816.00","1,788.00","1,280.00","6,130.00",15%,Apparel
+2018,Fall,B,Silver Lining,MC,$35 ,Jewelry,"14,475.00","2,419.00","12,056.00",83%,"3,717.00","8,339.00","5,754.00","10,578.00",40%,Apparel
+2018,Fall,C,ROFL Games,MC,$35 ,Custom Games,"8,448.00","3,919.00","5,159.00",61%,"1,468.00","1,468.00",998.00,"4,574.00",12%,Product
+2018,Fall,D,Lit,MC,$35 ,Candles,"8,276.00","3,153.00","5,123.00",62%,"2,530.00","2,593.00","1,758.00","3,723.00",21%,Product
+2018,Fall,E,Copper Kettle,Courtyard,$35 ,"Hot Chocolate, Baked Goods","8,784.00","3,456.00","5,325.00",61%,"4,787.00",538.00,345.00,"3,325.00",4%,Food/Drink
+2018,Fall,F,Lunch Box,Smith,$150 ,Sandwiches,"15,264.00","6,521.00","8,742.00",57%,"4,737.00","4,005.00","2,780.00","8,253.00",18%,Food/Drink
+2018,Fall,G,Cyber Sliders,STC,$150 ,Slider Sandwiches,"9,446.00","5,102.00","4,344.00",46%,"4,556.00",-213.00,-75.00,"4,354.00",-1%,Food/Drink
+2018,Fall,H,Viva la Bowl,Kimball,$75 ,Mexican Salads,"9,919.00","5,460.00","4,458.00",45%,"5,182.00",-723.00,-547.00,"2,509.00",-6%,Food/Drink
+2019,Winter,A,The Dunes,STC,$150 ,Grab and Go Sandwiches,"18,838.00","10,821.00","8,017.00",43%,"6,339.00","1,678.00","1,116.00","7,954.00",6%,Food/Drink
+2019,Winter,B,Casa de Kimabll,Kimball,$75 ,Street Taco's / Tostadas,"12,743.00","8,001.00","4,743.00",37%,"7,166.00","-2,423.00","-1,742.00","4,151.00",-14%,Food/Drink
+2019,Winter,C,Rexadilla,Austin,$35 ,Casadillas,"11,393.00","5,499.00","5,894.00",52%,"5,091.00",802.00,518.00,"4,765.00",5%,Food/Drink
+2019,Winter,D,Sweetums,MC,$35 ,Candy,"6,391.00","2,928.00","3,463.00",54%,"3,998.00",-535.00,-417.00,"1,909.00",-7%,Food/Drink
+2019,Winter,E,Smith Street Tacos,Smith,$150 ,Street Taco's,"13,100.00","7,515.00","5,585.00",43%,"7,340.00","-1,755.00","-1,309.00","5,709.00",-10%,Food/Drink
+2019,Winter,F,Rep-it,MC,$35 ,Custom Apparel,"8,714.00","5,544.00","3,170.00",36%,"5,054.00","-1,884.00","-1,376.00","2,346.00",-16%,Apparel
+2019,Winter,G,Bigfoot Stickers,MC,$35 ,Stickers,"4,732.00",912.00,"3,820.00",81%,"3,714.00",106.00,28.00,"2,460.00",1%,Product
+2019,Winter,H,VNL,MC,$35 ,Custom Apparel,"7,226.00","2,393.00","4,833.00",67%,"4,687.00",146.00,150.00,"2,772.00",2%,Apparel
+2019,Winter,I,Sticker Seal,MC,$35 ,Stickers,"4,719.00","1,830.00","2,889.00",61%,"4,635.00","-1,746.00","-1,293.00","1,948.00",-27%,Product
+2019,Spring,A,In The Loop,MC,$35 ,Handmade Ties,"6,684.00","6,327.00",357.00,5%,"4,116.00","-3,759.00","-2,659.00","3,265.00",-40%,Apparel
+2019,Spring,B,Phil's Philly Cheese Steaks,Kimball,$75 ,philly cheese steaks,"7,560.00","3,506.00","4,054.00",54%,"7,271.00","-3,217.00","-2,326.00","1,679.00",-31%,Food/Drink
+2019,Spring,C,Uncle Pops,Library Ampitheatre,$25 ,italian sodas,"4,612.00","2,347.00","2,265.00",49%,"3,198.00",-933.00,-752.00,950.00,-16%,Food/Drink
+2019,Spring,D,The Shack,Smith,$150 ,Hot Dogs and shakes,"9,183.00","3,947.00","5,236.00",57%,"7,191.00","-1,955.00","-1,410.00","2,217.00",-15%,Food/Drink
+2019,Spring,E,Boneless Bytes,STC,$150 ,Boneless Chicken wings and Shakes,"13,878.00","7,978.00","5,900.00",43%,"8,376.00","-2,476.00","1,765.00","3,726.00",13%,Food/Drink
+2019,Spring,F,Outdoorish,Library Ampitheatre,$35 ,Hammocks and Solar Chargers,"4,845.00","4,257.00",588.00,12%,"3,398.00","-2,810.00","-2,060.00",0.00,-43%,Product
+2019,Spring,G,Yellow Stitch,MC,$35 ,Women's Scrunchies,"9,043.00","3,049.00","5,994.00",66%,"3,834.00","2,160.00","1,479.00","6,551.00",16%,Apparel
+2019,Spring,H,The Dog House,MC,$25 ,Hot Dogs,"9,088.00","3,249.00","5,839.00",64%,"7,319.00","-1,480.00","-1,084.00","3,333.00",-12%,Food/Drink
+2019,Fall,A,Boujee,MC,$35 ,Essential Oils Products,"3,806.00","2,140.00","1,666.00",44%,"2,772.00","-1,106.00",-816.00,286.00,-21%,Product
+2019,Fall,B,Toasties,Smith,$150 ,Paninies,"11,973.00","6,906.00","5,067.00",42%,"3,782.00","1,285.00",863.00,"5,959.00",7%,Food/Drink
+2019,Fall,C,Bonga Beads,MC,$35 ,Beaded Jewelry,"7,498.00","1,924.00","5,575.00",74%,"4,234.00","1,341.00",911.00,"3,268.00",12%,Apparel
+2019,Fall,D,The Shoppe,MC,$35 ,Candles; Plants; Misc,"5,471.00","1,786.00","3,685.00",67%,"2,937.00",748.00,462.00,"1,711.00",8%,Product
+2019,Fall,E,"Subtle, Me",MC,$35 ,Custom Jewelry,"6,984.00","2,320.00","4,574.00",65%,"5,895.00","-1,321.00",-978.00,"1,890.00",-14%,Apparel
+2019,Fall,F,Batter Up,Library Ampitheatre,$35 ,Waffles Bites,"5,248.00","1,233.00","4,015.00",77%,"5,082.00","-1,067.00",-795.00,"1,955.00",-15%,Food/Drink
+2019,Fall,G,Salt Fix,STC,$150 ,Soft Pretzels,"5,697.00","1,436.00","4,261.00",75%,"4,515.00",-254.00,-207.00,"1,660.00",-4%,Food/Drink
+2019,Fall,H,Boom! Toasted,Kimball,$75 ,Gourmet Toast,"3,428.00","2,512.00",916.00,27%,"2,360.00","-1,444.00","-1,059.00",-197.00,-31%,Food/Drink
+2020,Winter,A,Pop Shop,Library Ampitheatre,$35 ,Mixed drinks,"3,644.00","2,621.00",971.00,27%,"2,046.00","-1,075.00",-812.00,"1,362.00",-22%,Food/Drink
+2020,Winter,B,Burro,Smith,$150 ,Breakfast burritos,"6,987.00","3,711.00","3,276.00",47%,"4,663.00","-1,388.00","-1,009.00",735.00,-14%,Food/Drink
+2020,Winter,C,Switchback,MC,$35 ,Outdoor apparel,"1,702.00","1,085.00",617.00,36%,"1,554.00",-937.00,-712.00,"1,012.00",-42%,Apparel
+2020,Winter,D,Sweet Traditions,MC,$35 ,Recipe jars,"1,604.00","1,760.00",-157.00,-10%,"1,057.00","-1,214.00",-895.00,807.00,-56%,Product
+2020,Winter,E,Cozy's,MC,$35 ,Hot chocolate & other,"2,838.00",582.00,"2,256.00",79%,"2,848.00",-592.00,-449.00,712.00,-16%,Food/Drink
+2020,Winter,F,Layers,MC,$35 ,Wood jewelry,"2,737.00",350.00,"2,387.00",87%,"2,001.00",386.00,242.00,"1,740.00",9%,Apparel
+2020,Winter,G,Sweet Life,MC,$35 ,Confections,"1,894.00",897.00,997.00,53%,"2,092.00","-1,095.00",-809.00,909.00,-43%,Food/Drink
+2020,Winter,H,Uli,MC,$35 ,Spoon/coin rings,"4,103.00",423.00,"3,680.00",90%,"3,394.00",286.00,162.00,"1,900.00",4%,Apparel
+2020,Winter,I,Taco Town,Kimball,$75 ,Street tacos,"3,208.00","1,936.00","1,676.00",52%,"3,303.00","-1,627.00","-1,198.00",515.00,-37%,Food/Drink
+2020,Spring,A,Rexburg Roots,Online,$7 ,Apparel,"3,436.00","2,533.00",904.00,26%,"2,740.00","-1,836.00","-1,430.00",-27.00,-42%,Apparel
+2020,Fall,A,Game Box,Online,,Card Games,"2,570.00","1,260.00","1,310.00",51%,"1,345.00",-35.00,-10.00,"1,052.00",0%,Product
+2020,Fall,B,Alpacka Box,Online,,Custom Gift Boxes,"4,872.00","2,584.00","2,288.00",47%,"2,013.00",275.00,81.00,60.00,2%,Product
+2020,Fall,C,Fibra Bands,Online,,Wrist Bands w/ Functions,"2,082.00","1,126.00",976.00,47%,"2,603.00","-1,627.00","-1,246.00",-484.00,-60%,Apparel
+2020,Fall,D,Hidden  Gems,Rotated,$35 ,Adventure Packs (Cards with Locations),"4,385.00",807.00,"3,578.00",82%,"3,251.00",328.00,179.00,295.00,4%,Product
+2020,Fall,E,Golden Teton Clay,Rotated,$35 ,Clay jewelry,"4,140.00",198.00,"3,347.00",81%,"2,342.00","1,005.00",648.00,"1,058.00",16%,Apparel
+2020,Fall,F,Groovy Mama,Rotated,$35 ,Tie-dye Apparel,"7,189.00","3,909.00","3,280.00",46%,"4,538.00","-1,258.00",-988.00,289.00,-14%,Apparel
+2020,Fall,G,Mind Full,Rotated,$35 ,StLibrary Ampitheatreed Jewelry,"4,126.00",874.00,"3,159.00",77%,"2,043.00","1,116.00",714.00,966.00,17%,Apparel
+2020,Fall,H,Gator Gains,Rotated,$35 ,Gator Masks,"3,981.00","1,609.00","2,372.00",60%,"2,343.00",29.00,-29.00,-325.00,-1%,Apparel
+2021,Winter,A,Ella Rain Jewelry,Online,,Metal Jewlery,"2,602.00",868.00,"1,734.00",67%,"1,179.00",555.00,293.00,396.00,11%,Apparel
+2021,Winter,B,BeanPatch,Online,,Patch Beanies,"9,644.00","4,864.00","4,780.00",50%,"1,717.00","3,063.00","2,105.00","2,535.00",22%,Apparel
+2021,Winter,C,Rexburg Life,Online,,Website for housing options ,476.00,0.00,476.00,100%,"1,301.00",-825.00,432.00,815.00,91%,Service
+2021,Winter,D,Cherie Jewlery Co,Rotated,$35 ,Resin Jewlery,"2,319.00",364.00,"1,954.00",84%,"1,872.00",83.00,"1,044.00","1,275.00",45%,Apparel
+2021,Winter,E,Nomad,Rotated,$35 ,Embroidered Beanies,"4,695.00","1,784.00","2,912.00",62%,"2,470.00",442.00,184.00,192.00,4%,Apparel
+2021,Winter,F,Bel Arome,Rotated,$35 ,Candels,"2,814.00","1,335.00","1,479.00",53%,"2,102.00",-624.00,-537.00,613.00,-19%,Product
+2021,Winter,G,Social Survival,Rotated,$35 ,Date Night Kits,"2,712.00","1,295.00","1,417.00",52%,"1,786.00",-369.00,-404.00,0.00,-15%,Product
+2021,Winter,H,The Hunt,Rotated,$35 ,Scavenger Hunts,"4,493.00",145.00,"4,348.00",97%,"2,478.00","1,869.00","1,609.00","2,203.00",36%,Service
+2021,Spring,A,Paxil,Online,$35 ,Mexican Woven Fabrics,"2,841.00","1,965.00",877.00,31%,"1,701.00",-825.00,-697.00,854.00,-25%,Food/Drink
+2021,Spring,B,R Home Stickers,Online,$35 ,Stickers,657.00,377.00,279.00,42%,626.00,-346.00,-287.00,100.00,-44%,Product
+2021,Spring,C,EZ Breezy,Online,,Summer Rental ,291.00,    ,291.00,100%,"1,109.00",-819.00,-909.00,419.00,-312%,Service
+2021,Spring,D,Grungy Goat,Rotated,$35 ,Bleached Tees,"6,697.00","1,914.00","4,783.00",71%,"3,926.00",857.00,603.00,746.00,9%,Apparel
+2021,Spring,E,Sewly,Rotated,$35 ,Scrunchies,"2,151.00",845.00,"1,306.00",61%,"1,768.00",-462.00,-419.00,"1,002.00",-19%,Apparel
+2021,Spring,F,Buzzle,Rotated,$35 ,Bath Bombs,"1,446.00",249.00,"1,196.00",83%,"1,894.00",-697.00,-435.00,280.00,-30%,Product
+2021,Spring,G,Karate Wash,Rotated,$35 ,Car Wash,"5,674.00",362.00,"5,288.00",93%,"5,255.00",33.00,-20.00,"1,574.00",0%,Service
+2021,Spring,H,Dunes and Co,Rotated,$35 ,Sand Dyed Tees,"7,124.00","2,872.00","4,252.00",60%,"3,172.00","1,079.00",655.00,935.00,9%,Apparel
+2021,Fall,A,Funky Monkey Thrift Shop,Outside,$25 ,Selling donated clothes,"2,153.00",285.00,"3,334.00",155%,"3,055.00",279.00,106.00,-25.00,5%,Apparel
+2021,Fall,B,Waypoint,Outside,$25 ,Hoodies of various places,"7,759.00","3,769.00","5,110.00",66%,"3,902.00","1,207.00",703.00,629.00,9%,Apparel
+2021,Fall,C,Spirit of Wix,Rotated,$35 ,Candles,"10,510.00","5,013.00","7,795.00",74%,"4,285.00","3,510.00","1,970.00","2,178.00",19%,Product
+2021,Fall,D,FitCheck Apparel ,Outside,$25 ,Tshirts with Rexburg sayings,"4,700.00","2,516.00","2,795.00",59%,"3,905.00","-1,110.00",-925.00,"1,115.00",-20%,Apparel
+2021,Fall,E,Remember When,Rotated,$25 ,Adventure Book,"2,507.00","1,017.00","2,199.00",88%,"2,802.00",-602.00,-492.00,436.00,-20%,Product
+2021,Fall,F,Cozy Co,Outside,$25 ,Handwarmers,"3,522.00",912.00,"4,371.00",124%,"3,584.00",787.00,456.00,95.00,13%,Product
+2021,Fall,G,Parks n Rex,STC,$35 ,National Parks T-shirts,"9,146.00","3,132.00","6,018.00",66%,"4,334.00","1,683.00","1,061.00","1,863.00",12%,Apparel
+2021,Fall,H,Outlandish,Smith,$35 ,Customizable Hoodies,"9,027.00","6,955.00","5,607.00",62%,"3,852.00","1,755.00","1,240.00","1,049.00",14%,Apparel
+2022,Winter,A,The Apricot Tree,Campus,,Popcorn & Pretzels,"3,870.00","1,468.00","2,402.00",62%,"3,118.00",-715.00,-625.00,140.00,-16%,Food/Drink
+2022,Winter,B,Cheese Louise,Smith,$35 ,Mac n Cheese,"16,664.00","5,326.00","11,337.00",68%,"6,910.00","4,428.00","3,043.00","4,464.00",18%,Food/Drink
+2022,Winter,C,Stroop There It Is,Benson,,Stroopwafels,"14,393.00","2,750.00","11,643.00",81%,"8,257.00","3,386.00","2,868.00","4,375.00",20%,Food/Drink
+2022,Winter,D,Chap'd,I-Center,$35 ,Chapstick,"5,936.00","1,209.00","4,538.00",76%,"2,930.00","1,608.00","1,053.00",877.00,18%,Product
+2022,Winter,E,208 Stitch,Hart,$35 ,Water bottle coozie,"6,030.00","2,469.00","3,562.00",59%,"3,178.00",383.00,162.00,334.00,3%,Product
+2022,Winter,F,The Teahive,Outside,35 (25 + 10 for tent),Tea and protein bytes,"6,380.00","1,935.00","4,444.00",70%,"4,537.00",-93.00,-135.00,    ,-2%,Food/Drink
+2022,Winter,G,Splash,Hart,$35 ,Tie dye socks,"9,936.00","3,626.00","6,310.00",64%,"5,185.00","1,125.00",698.00,"1,056.00",7%,Apparel
+2022,Winter,H,The Myx,Benson,$35 ,Trail mix & power bites,"2,580.00",689.00,"1,891.00",73%,"2,721.00",-830.00,-648.00,    ,-25%,Food/Drink
+2022,Spring,A,Cardway to Heaven,Outside,$25 ,Rexburg themed card games,"6,198.00","3,643.00","2,555.00",41%,"2,151.00",404.00,170.00,218.00,3%,Product
+2022,Spring,B,Woofles,Snow,25/35,Waffles,"2,189.00",615.00,"1,574.00",72%,"2,353.00",-779.00,-571.00,    ,-26%,Food/Drink
+2022,Spring,C,Road Bum,Outside,$25 ,Tie-dye Shirts and Hats ,"4,064.00","2,020.00","2,044.00",50%,"2,271.00",-146.00,-187.00,21.00,-5%,Apparel
+2022,Spring,D,Super Freeze,Outside,$25 ,Freeze dried candy and fruit,"5,576.00","1,670.00","3,906.00",70%,"3,606.00",300.00,102.00,146.00,2%,Food/Drink
+2022,Spring,E,Churro a la Rex,Outside,$25 ,Churros,"5,497.00","2,259.00","3,238.00",59%,"3,401.00",-163.00,-156.00,7.00,-3%,Food/Drink
+2022,Spring,F,Carnival Cravings,Outside,$25 ,Cotton Candy & Carnival Games,"2,936.00",537.00,"2,399.00",82%,"2,307.00",92.00,261.00,399.00,9%,Service
+2022,Spring,G,Mad Dawg,Smith,$35 ,Hot Dogs ,"12,755.00","4,545.00","8,210.00",64%,"4,718.00","3,492.00","2,310.00","3,300.00",18%,Food/Drink
+2022,Spring,H,N'ice,Outside,$25 ,Shaved Ice ,"7,603.00","2,011.00","5,592.00",74%,"3,963.00","1,665.00","1,108.00","1,610.00",15%,Food/Drink
+2022,Fall,A,Scratch,I-Center,25/35,Date cards/packs,"2,342.00",637.00,"1,705.00",73%,"2,292.00",-586.00,-486.00,587.00,-21%,Product
+2022,Fall,B,DaniCakes,Smith,$150 ,Danish pancakes,"8,953.00","1,511.00","7,442.00",83%,"6,064.00","1,378.00",830.00,993.00,9%,Food/Drink
+2022,Fall,C,Pretzel Parlor,Outside,25/35,Covered pretzels(hard) sticks,"8,107.00","2,621.00","5,486.00",68%,"2,938.00","2,549.00","1,727.00","2,499.00",21%,Food/Drink
+2022,Fall,D,The Cookie Jar,Outside,$25 ,Pre-made cookie mixes,"6,051.00","2,820.00","3,230.00",53%,"2,427.00",803.00,480.00,523.00,8%,Food/Drink
+2022,Fall,E,Banded Together,I-Center,$25 ,Spoon Rings/necklaces/jewelery,"8,326.00","1,188.00","7,138.00",86%,"4,068.00","3,069.00","2,174.00","2,997.00",26%,Apparel
+2022,Fall,F,FryNight,MC,$100 ,Loaded Fries,"8,011.00","3,037.00","4,974.00",62%,"4,385.00",589.00,299.00,253.00,4%,Food/Drink
+2022,Fall,G,Twisted Pretzels,I-Center,$35 ,Soft Pretzels,"5,796.00","1,479.00","4,317.00",74%,"3,714.00",602.00,270.00,1.00,5%,Food/Drink
+2022,Fall,H,Scrubalicious,I-Center,$35 ,Homemade body and lip scrubs,"9,031.00","2,378.00","6,653.00",74%,"4,337.00","2,276.00","1,513.00","2,026.00",17%,Product
+2023,Winter,A,Golden Links,I-Center,$35 ,Permanenant jewlery,"18,754.00","2,019.00","13,508.00",72%,"6,330.00","8,260.00","5,127.00","6,021.00",27%,Apparel
+2023,Winter,B,Unboxed,Benson,$35 ,Brownies,"10,221.00","3,859.00","6,362.00",62%,"3,877.00","2,485.00","1,345.00","1,922.00",13%,Food/Drink
+2023,Winter,C,Rogers,Hart,$35 ,Shave cream for sensitive skin,"6,528.00","2,507.00","4,021.00",62%,"2,913.00","1,108.00",523.00,627.00,8%,Product
+2023,Winter,D,Swift Blend,Smith,$150 ,Hot Chocolate (gourmet),"8,146.00","2,340.00","5,805.00",71%,"6,505.00",-700.00,-758.00,73.00,-9%,Food/Drink
+2023,Winter,E,After Hours,MC,$150 ,Wings and Mocktails,"14,384.00","6,699.00","7,685.00",53%,"6,654.00","1,031.00",555.00,714.00,4%,Food/Drink
+2023,Winter,F,CereALLS,Benson,$35 ,Cereal balls,"6,669.00","2,007.00","4,662.00",70%,"2,614.00","2,048.00","1,338.00","2,177.00",20%,Food/Drink
+2023,Winter,G,MemoRays,STC,$35 ,Laser engraving,"4,319.00",500.00,"3,819.00",88%,"3,727.00",93.00,-44.00,51.00,-1%,Service
+2023,Winter,H,Wickalicous,Rotated,$35 ,Food scented candles,"11,056.00","5,020.00","6,036.00",55%,"3,405.00","2,630.00","1,579.00","2,256.00",14%,Product
+2023,Spring,A,1793 & Co,Ampatheater,$25 ,Coin Rings,"8,111.00",276.00,"7,835.00",97%,"4,513.00","3,323.00","2,208.00","3,155.00",27%,Apparel
+2023,Spring,B,Walk'in Tacos,Night MC,$150 ,Tacos in chip bags,"8,944.00","3,205.00","5,739.00",64%,"5,609.00",129.00,-187.00,    ,-2%,Food/Drink
+2023,Spring,C,The Chap Shack,Ampatheater,$25 ,"chapstick, lip oils","4,023.00",893.00,"3,130.00",78%,"2,442.00",688.00,-2.00,    ,0%,Product
+2023,Spring,D,Dashing Dough,Benson,$35 ,Donuts and frozen drinks,"5,372.00","2,384.00","2,988.00",56%,"3,146.00",-158.00,-328.00,    ,-6%,Food/Drink
+2023,Spring,E,Bussin' Butter,Ampatheater,$25 ,skin lotions with shea butter,"4,972.00","1,815.00","3,157.00",63%,"3,060.00",97.00,-35.00,    ,-1%,Product
+2023,Spring,F,New Life,Ampatheater,$25 ,bleached shirts and terariums,"3,675.00",754.00,"2,921.00",79%,"2,830.00",91.00,63.00,91.00,2%,Apparel
+2023,Spring,G,Brims,Ampatheater,$25 ,Hats and pathces,"14,720.00","7,410.00","7,310.00",50%,"2,503.00","4,808.00","3,259.00","4,655.00",22%,Apparel
+2023,Spring,H,Dippers,Smith,$150 ,Sandwich sticks,"6,535.00","2,453.00","4,082.00",62%,"4,620.00",-538.00,-329.00,    ,-5%,Food/Drink
+2023,Spring,I,Easy Peasy,Ricks/Hinkley/Outside,$25 ,Lemonade and Cookies,"4,463.00","1,337.00","3,126.00",70%,"2,632.00",494.00,190.00,272.00,4%,Food/Drink
+2023,Fall,A,CheFigo,I-Center,$35 ,Itlian Charm Braclets,"17,527.00","3,279.00","14,248.00",81%,"4,313.00","9,935.00","6,540.00","8,943.00",37%,Apparel
+2023,Fall,B,Homeslice,Hart,$35 ,Homemade fun bread,"8,851.00","2,284.00","6,567.00",74%,"3,397.00","3,169.00","2,042.00","3,006.00",23%,Food/Drink
+2023,Fall,C,Tia Tortilla,Night MC,$150 ,Authentic Tacos,"18,173.00","6,525.00","11,648.00",64%,"5,264.00","6,384.00","4,119.00","6,383.00",23%,Food/Drink
+2023,Fall,D,Your Signature Jewlery,STC,$35 ,Custom Engraved Necklaces and other items,"9,622.00","2,709.00","6,913.00",72%,"5,336.00","1,577.00",220.00,500.00,2%,Apparel
+2023,Fall,E,Off-Shore,Hart,$35 ,Seaglass jewlery and hoodies,"11,223.00","3,469.00","7,754.00",69%,"3,795.00","3,959.00","2,699.00","3,947.00",24%,Apparel
+2023,Fall,F,On-A-Stick,Benson,$35 ,Deserts on a stick,"8,808.00","3,451.00","5,357.00",61%,"3,446.00","1,911.00","1,114.00","1,797.00",13%,Food/Drink
+2023,Fall,G,Mac Dad,Smith,$150 ,Mac and Cheese,"16,491.00","5,397.00","10,848.00",66%,"6,060.00","4,789.00","2,162.00","3,000.00",13%,Food/Drink
+2023,Fall,H,Frozone,STC,$35 ,Frozen yogurt and and shakes,"6,220.00","1,491.00","4,276.00",69%,"1,300.00","-1,283.00","-1,069.00",23.00,-17%,Food/Drink
+2023,Fall,I,Sunday Blues,I-Center,$35 ,Solar printed apparel,"4,544.00","1,799.00","2,673.00",59%,"2,936.00",-263.00,-542.00,    ,-12%,Apparel
